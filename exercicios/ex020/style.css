@@ -14,6 +14,7 @@ h1{
     color: rgb(117, 30, 30);
 }
 a{
+    display: block;
     color: brown;
     text-decoration: none;
 }
@@ -36,3 +37,22 @@ a:active{
 .especial::before{
     content: "=> ";
 }
+div{
+    height: 110px;
+    width: 110px;
+    margin: auto;
+}
+#links{
+    height: 150px;
+    width: 150px;
+}
+.lista{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+p{
+    width: 174px;
+    margin-top: 1px;
+}
+
