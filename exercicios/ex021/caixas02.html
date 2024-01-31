@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: lightgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            padding: 5px;
+            background-color: rgb(94, 93, 93);
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.473);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 45px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 0px 0px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.473);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(148, 148, 148);
+        }
+        footer{
+            background-color: black;
+            margin: 0px;
+            padding: 1px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site de noticias</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam delectus vitae voluptatibus, omnis incidunt eveniet vero natus totam atque sint deleniti commodi eius repellat suscipit, blanditiis veritatis nihil corporis!</p>
+                <aside>Escrito por José da Silva</aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por José Brenon</p>
+    </footer>
+</body>
+</html>
